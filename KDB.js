@@ -4,7 +4,7 @@
 
 let KDB = require("Astraloa-KDB" /** @modules : ./modules/Astraloa-KDB */ );
 
-let client = KDB.getInstnace({
+let client = KDB.getInstance({
     /** @default */
     packageName: 'com.kakao.talk', // KAKAOTALK DATABASE FILE PACKAGE NAME
     reactByMine: false // SELF MESSAGE REACT
